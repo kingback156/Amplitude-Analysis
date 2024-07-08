@@ -18,7 +18,11 @@
 ```
 conda install librosa numpy plotly dash
 ```
-**Step 3:** After entering the homepage, click "Let's try it!" (as shown in Figure 1 above) to enter the analysis interface.
+**Step 3:** Then, start the program with the following command：
+```
+python app.py
+```
+**Step 4:** After entering the homepage, click "Let's try it!" (as shown in Figure 1 above) to enter the analysis interface.
 
 ## A few notes
 <img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/51f622d3-be52-4531-86be-b8c7babd8189" width="30%" height="30%">
