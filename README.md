@@ -12,9 +12,9 @@
 </table>
 
 ## Preparation for operation
-**Step 1:**
+**Step 1:** Download or copy the entire Github library locally;
 
-**Step 2:** Please enter the following command in conda's virtual environment
+**Step 2:** Please enter the following command in conda's virtual environment;
 ```
 conda install librosa numpy plotly dash
 ```
