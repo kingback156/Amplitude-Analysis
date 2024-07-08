@@ -22,3 +22,5 @@ conda install librosa numpy plotly dash
 
 ## A few notes
 ![Snipaste_2024-07-08_14-34-30](https://github.com/kingback156/Amplitude-Analysis/assets/146167978/d2b35f39-3cde-42c0-9bd0-c52dac78a419)
+
+$\bullet$
