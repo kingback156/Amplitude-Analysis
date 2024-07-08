@@ -1,6 +1,6 @@
 # Amplitude Analysis
 
-## A.Screenshot display
+## Screenshot display
 
 <table>
   <tr>
@@ -11,7 +11,7 @@
   </tr>
 </table>
 
-## B.Preparation for operation
+## Preparation for operation
 **Step 1:** Download or copy the entire Github library locally;
 
 **Step 2:** Please enter the following command in conda's virtual environment;
@@ -20,7 +20,7 @@ conda install librosa numpy plotly dash
 ```
 **Step 3:** After entering the homepage, click "Let's try it!" (as shown in Figure 1 above) to enter the analysis interface.
 
-## C.A few notes
+## A few notes
 <img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/51f622d3-be52-4531-86be-b8c7babd8189" width="50%" height="50%">
 
 $\bullet$ Both the "Zoom" tool and the "Draw" tool can be used to manipulate selected areas;
