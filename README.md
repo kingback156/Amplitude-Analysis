@@ -18,7 +18,7 @@
 ```
 conda install librosa numpy plotly dash
 ```
-**Step 3:** Then, start the program with the following command：
+**Step 3:** Then, start the program with the following command and click on the link displayed in the terminal：
 ```
 python app.py
 ```
