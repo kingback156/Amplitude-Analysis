@@ -1,5 +1,4 @@
-# Demo
-Audio Analysis demo
+# Screenshot display
 
 ```
 pip install librosa numpy plotly dash
