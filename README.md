@@ -22,6 +22,7 @@ conda install librosa numpy plotly dash
 
 ## A few notes
 <img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/51f622d3-be52-4531-86be-b8c7babd8189" width="50%" height="50%">
+<img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/51f622d3-be52-4531-86be-b8c7babd8189" height="240px" width="160px" />
 
 $\bullet$ Both the "Zoom" tool and the "Draw" tool can be used to manipulate selected areas;
 
