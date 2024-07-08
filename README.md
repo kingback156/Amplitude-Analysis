@@ -2,7 +2,7 @@
 Audio Analysis demo
 
 ```
-pip install librosa numpy plotly
+pip install librosa numpy plotly dash
 ```
 
 ```
