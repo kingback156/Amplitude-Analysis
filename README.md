@@ -21,3 +21,4 @@ Please enter the following command in conda's virtual environment
 ```
 pip install librosa numpy plotly dash
 ```
+After entering the homepage, click "Let's try it!" (as shown in Figure 1 above) to enter the analysis interface.
