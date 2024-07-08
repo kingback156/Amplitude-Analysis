@@ -1,4 +1,6 @@
-# Screenshot display
+# Amplitude Analysis
+
+## Screenshot display
 
 <table>
   <tr>
@@ -13,11 +15,8 @@
   </tr>
 </table>
 
-```
-pip install librosa numpy plotly dash
-```
+## Screenshot display
 
 ```
-python -m http.server 8000
-http://localhost:8000/template.html
+pip install librosa numpy plotly dash
 ```
