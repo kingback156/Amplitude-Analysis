@@ -1,6 +1,6 @@
 # Amplitude Analysis
 
-## Screenshot display
+### Screenshot display
 
 <table>
   <tr>
@@ -15,7 +15,7 @@
   </tr>
 </table>
 
-## Screenshot display
+### Preparation for operation
 
 ```
 pip install librosa numpy plotly dash
