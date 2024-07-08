@@ -17,6 +17,7 @@
 
 ### Preparation for operation
 
+Please enter the following command in conda's virtual environment
 ```
 pip install librosa numpy plotly dash
 ```
