@@ -22,7 +22,7 @@ $\bullet$ **Interactive Tools:** Provides tools for zooming, selecting, and draw
   </tr>
 </table>
 
-## Preparation for operation
+## Installation and run
 **Step 1:** Clone the repository:
 ```
 git clone https://github.com/your-username/amplitude-analysis.git
