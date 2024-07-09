@@ -41,3 +41,23 @@ This document provides a detailed description of each function in the Flask and 
   - Creates an initial Plotly figure for the amplitude plot with time on the x-axis and amplitude on the y-axis.
 
 ## 4. Dash Callbacks (continued)
+### Handling FFT Computation and Plotting
+`FFT Computation within update_fft_plot(relayoutData, figure)`
+
+- Purpose: Computes the Fast Fourier Transform (FFT) of the selected amplitude data points.
+- Process:
+  - Rectangle Selection:
+    - When the user draws a rectangle on the amplitude plot, the function extracts the time range (x0 to x1).
+    - It identifies the indices of the amplitude data points within this time range.
+    - Applies a Hanning window to the selected amplitude points to reduce spectral leakage.
+    - Computes the FFT of the windowed amplitude data points.
+    - Extracts the positive frequency components and normalizes the FFT result.
+    - Removes the DC component (zero-frequency term).
+    - Generates a Plotly figure for the FFT plot with frequency on the x-axis and amplitude on the y-axis.
+  - Zoom Interaction:
+    - Similar to rectangle selection, the function handles zoom interactions by extracting the time range from relayoutData.
+    - Identifies the indices of the amplitude data points within the zoomed time range.
+    - Applies a Hanning window, computes the FFT, and generates the FFT plot.
+- Returns:
+  - A message indicating the start and end of the selected time range and the number of selected data points.
+  - An updated FFT plot showing the frequency spectrum of the selected data points.
