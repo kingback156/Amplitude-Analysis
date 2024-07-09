@@ -5,15 +5,14 @@
 This project is a web application built with Flask and Dash that allows users to upload audio files, analyze their amplitude, and visualize the results. Users can also select regions of the audio for detailed frequency spectrum analysis using FFT (Fast Fourier Transform).
 
 ## Description
-$\bullet$ Upload Audio Files: Supports various audio file formats (e.g., WAV, MP3).
+$\bullet$ **Upload Audio Files:** Supports various audio file formats (e.g., WAV, MP3).
 
-$\bullet$ Amplitude Visualization: Displays the amplitude of the audio signal over time.
+$\bullet$ **Amplitude Visualization:** Displays the amplitude of the audio signal over time.
 
-$\bullet$ Frequency Spectrum Analysis: Allows users to select regions of the audio for FFT analysis and visualizes the frequency spectrum.
+$\bullet$ **Frequency Spectrum Analysis:** Allows users to select regions of the audio for FFT analysis and visualizes the frequency spectrum.
 
-$\bullet$ Interactive Tools: Provides tools for zooming, selecting, and drawing on the amplitude plot.
+$\bullet$ **Interactive Tools:** Provides tools for zooming, selecting, and drawing on the amplitude plot.
 ## Screenshot display
-
 <table>
   <tr>
     <td><img width="1044" alt="Snipaste_2024-03-17_15-46-47" src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/de46f1e3-c620-43ac-a4ba-445b1281e85e" scale=0.5></td>
@@ -24,8 +23,11 @@ $\bullet$ Interactive Tools: Provides tools for zooming, selecting, and drawing 
 </table>
 
 ## Preparation for operation
-**Step 1:** Download or copy the entire Github library locally;
-
+**Step 1:** Clone the repository:
+```
+git clone https://github.com/your-username/amplitude-analysis.git
+cd amplitude-analysis
+```
 **Step 2:** Please enter the following command in conda's virtual environment;
 ```
 conda install librosa numpy plotly dash
