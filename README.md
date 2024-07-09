@@ -4,6 +4,14 @@
 
 This project is a web application built with Flask and Dash that allows users to upload audio files, analyze their amplitude, and visualize the results. Users can also select regions of the audio for detailed frequency spectrum analysis using FFT (Fast Fourier Transform).
 
+## Description
+$\bullet$ Upload Audio Files: Supports various audio file formats (e.g., WAV, MP3).
+
+$\bullet$ Amplitude Visualization: Displays the amplitude of the audio signal over time.
+
+$\bullet$ Frequency Spectrum Analysis: Allows users to select regions of the audio for FFT analysis and visualizes the frequency spectrum.
+
+$\bullet$ Interactive Tools: Provides tools for zooming, selecting, and drawing on the amplitude plot.
 ## Screenshot display
 
 <table>
