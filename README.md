@@ -36,7 +36,8 @@ conda install librosa numpy plotly dash
 ```
 python app.py
 ```
-Open your browser and visit "http://127.0.0.1:5000" to access the application.
+Open your browser and visit "http://127.0.0.1:5000" to access the application;
+
 **Step 4:** After entering the homepage, click "Let's try it!" (as shown in Figure 1 above) to enter the analysis interface.
 
 ## A few notes
