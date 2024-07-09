@@ -32,3 +32,6 @@ $\bullet$ Both the "Zoom" tool and the "Draw" tool can be used to manipulate sel
 $\bullet$ The "Draw" tool allows multiple FFT calculations at one scale;
 
 $\bullet$ The choice of audio data is unimportant, but in my experiments I mainly used this dataset: https://commonvoice.mozilla.org/en/datasets.
+
+## Contact
+If you have any question, please feel free to contact me. E-mail: ltl030529@163.com.
