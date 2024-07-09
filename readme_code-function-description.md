@@ -13,4 +13,10 @@ This document provides a detailed description of each function in the Flask and 
 `@server.route('/analyse.html')`
 - **Purpose:** Defines the route for the analysis page.
 - **Description:** This route renders the Dash application when the /analyse.html URL is accessed, integrating the Dash application into the Flask framework.
-## 2.Dash Initialization and Layout
+## 2. Dash Initialization and Layout
+`app = Dash(__name__, server=server, url_base_pathname='/analyse/')`
+- **Purpose:** Initializes the Dash application.
+- **Description:** This creates an instance of the Dash application and links it to the Flask server, setting the base URL path for the Dash app to `/analyse/`.
+  
+## 3. Utility Functions
+## 4. Dash Callbacks (continued)
