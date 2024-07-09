@@ -22,9 +22,9 @@ This document provides a detailed description of each function in the Flask and 
 - **Purpose:** Defines the layout of the Dash application. 
 - **Description:** Specifies the structure and components of the Dash application, including:
   - An H1 header displaying "Amplitude Analysis".
-A file upload component for uploading audio files.
-A placeholder for the amplitude plot (dcc.Graph).
-A container for displaying messages.
-A placeholder for the FFT plot (dcc.Graph).
+  - A file upload component for uploading audio files.
+  - A placeholder for the amplitude plot `(dcc.Graph)`.
+  - A container for displaying messages.
+  - A placeholder for the FFT plot `(dcc.Graph)`.
 ## 3. Utility Functions
 ## 4. Dash Callbacks (continued)
