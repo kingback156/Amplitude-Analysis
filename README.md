@@ -47,21 +47,21 @@ $\bullet$ `/analyse.html:` Renders the analysis page where the Dash application 
 ### Dash Application
 $\bullet$ Layout:
 
-Header with title "Amplitude Analysis".
+$\circ$ Header with title "Amplitude Analysis".
 
-Upload button for uploading audio files.
+$\circ$ Upload button for uploading audio files.
 
-Amplitude plot area.
+$\circ$ Amplitude plot area.
 
-Output container for displaying selected region information.
+$\circ$ Output container for displaying selected region information.
 
-FFT plot area for frequency spectrum visualization.
+$\circ$ FFT plot area for frequency spectrum visualization.
 
 $\bullet$ Callbacks:
 
-`update_amplitude_plot`: Updates the amplitude plot based on the uploaded audio file.
+$\circ$ `update_amplitude_plot`: Updates the amplitude plot based on the uploaded audio file.
 
-`update_fft_plot`: Updates the FFT plot based on the selected region or zoomed area in the amplitude plot.
+$\circ$ `update_fft_plot`: Updates the FFT plot based on the selected region or zoomed area in the amplitude plot.
 
 ## A few notes
 <img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/51f622d3-be52-4531-86be-b8c7babd8189" width="30%" height="30%">
