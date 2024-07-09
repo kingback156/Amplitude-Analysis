@@ -47,11 +47,11 @@ $\bullet$ `/analyse.html:` Renders the analysis page where the Dash application 
 ### Dash Application
 $\bullet$ Layout:
 
-   $\circ$ Header with title "Amplitude Analysis".
+   - $\circ$ Header with title "Amplitude Analysis".
 
-   $\circ$ Upload button for uploading audio files.
+   - $\circ$ Upload button for uploading audio files.
 
-   $\circ$ Amplitude plot area.
+   - $\circ$ Amplitude plot area.
 
    $\circ$ Output container for displaying selected region information.
 
