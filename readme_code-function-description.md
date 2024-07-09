@@ -27,4 +27,17 @@ This document provides a detailed description of each function in the Flask and 
   - A container for displaying messages.
   - A placeholder for the FFT plot (dcc.Graph).
 ## 3. Utility Functions
+
+`parse_contents(contents)`
+- Purpose: Parses the uploaded audio file and generates the amplitude plot.
+- Parameters:
+  - contents: The contents of the uploaded audio file in base64 format.
+- Returns: A tuple containing a Plotly figure of the amplitude plot, the time array, the amplitude array, and the sample rate.
+- Description:
+  - Decodes the base64-encoded audio file.
+  - Uses librosa to load the audio data and sample rate.
+  - Calculates the amplitude of the audio signal.
+  - Generates a time array corresponding to the audio data.
+  - Creates an initial Plotly figure for the amplitude plot with time on the x-axis and amplitude on the y-axis.
+
 ## 4. Dash Callbacks (continued)
