@@ -40,10 +40,33 @@ This document provides a detailed description of each function in the Flask and 
   - Generates a time array corresponding to the audio data.
   - Creates an initial Plotly figure for the amplitude plot with time on the x-axis and amplitude on the y-axis.
 
-## 4. Dash Callbacks (continued)
-### Handling FFT Computation and Plotting
+## 4. Dash Callbacks
+`@app.callback(Output('amplitude-plot', 'figure'), [Input('upload-audio', 'contents')])`
+`def update_amplitude_plot(contents)`
+- Purpose: Updates the amplitude plot when an audio file is uploaded.
+- Parameters:
+  - contents: The contents of the uploaded audio file in base64 format.
+- Returns: An updated Plotly figure for the amplitude plot.
+- Description:
+  - Checks if an audio file has been uploaded.
+  - Calls parse_contents to generate the amplitude plot.
+  - Updates the Dash graph component with the new amplitude plot.
+`@app.callback([Output('output-container', 'children'), Output('fft-plot', 'figure')], [Input('amplitude-plot', 'relayoutData')], [State('amplitude-plot', 'figure')])`
+`def update_fft_plot(relayoutData, figure)`
+- Purpose: Updates the FFT plot based on user interactions with the amplitude plot.
+- Parameters:
+  - relayoutData: Data about the user's interactions with the amplitude plot (e.g., drawing rectangles, zooming).
+  - figure: The current state of the amplitude plot.
+- Returns: A message about the selected region and an updated FFT plot.
+- Description:
+  - Checks if the amplitude plot contains valid data.
+  - Handles user interactions:
+    - Drawing rectangles: Extracts the selected time range, applies a window function to the selected amplitude points, computes the FFT, and updates the FFT plot.
+    - Zooming: Similar to drawing rectangles, extracts the selected time range, applies a window function, computes the FFT, and updates the FFT plot.
+  - Updates the amplitude plot to include the user's selected shapes or zoom range.
+  - Returns a message indicating the selected region and an updated FFT plot.
+## 5. Handling FFT Computation and Plotting
 `FFT Computation within update_fft_plot(relayoutData, figure)`
-
 - Purpose: Computes the Fast Fourier Transform (FFT) of the selected amplitude data points.
 - Process:
   - Rectangle Selection:
