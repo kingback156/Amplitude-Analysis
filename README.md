@@ -41,20 +41,27 @@ Open your browser and visit "http://127.0.0.1:5000" to access the application;
 **Step 4:** After entering the homepage, click "Let's try it!" (as shown in Figure 1 above) to enter the analysis interface.
 ## Functionality
 ### Flask Routes
-/: Renders the main index page.
-/analyse.html: Renders the analysis page where the Dash application is embedded.
+$\bullet$ `/`: Renders the main index page.
+
+$\bullet$ `/analyse.html:` Renders the analysis page where the Dash application is embedded.
 ### Dash Application
-Layout:
+$\bullet$ Layout:
 
 Header with title "Amplitude Analysis".
-Upload button for uploading audio files.
-Amplitude plot area.
-Output container for displaying selected region information.
-FFT plot area for frequency spectrum visualization.
-Callbacks:
 
-update_amplitude_plot: Updates the amplitude plot based on the uploaded audio file.
-update_fft_plot: Updates the FFT plot based on the selected region or zoomed area in the amplitude plot.
+Upload button for uploading audio files.
+
+Amplitude plot area.
+
+Output container for displaying selected region information.
+
+FFT plot area for frequency spectrum visualization.
+
+$\bullet$ Callbacks:
+
+`update_amplitude_plot`: Updates the amplitude plot based on the uploaded audio file.
+
+`update_fft_plot`: Updates the FFT plot based on the selected region or zoomed area in the amplitude plot.
 
 ## A few notes
 <img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/51f622d3-be52-4531-86be-b8c7babd8189" width="30%" height="30%">
