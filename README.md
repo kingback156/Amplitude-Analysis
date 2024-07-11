@@ -42,35 +42,27 @@ Open your browser and visit "http://127.0.0.1:5000" to access the application;
 - sine_wave_[1,2]: Sine wave signal.
 ## Functionality
 ### Flask Routes
-$\bullet$ `/`: Renders the main index page.
-
-$\bullet$ `/analyse.html:` Renders the analysis page where the Dash application is embedded.
+- `/`: Renders the main index page.
+- `/analyse.html:` Renders the analysis page where the Dash application is embedded.
 ### Dash Application
-$\bullet$ Layout:
-
+- Layout:
    - Header with title "Amplitude Analysis".
-
    - Upload button for uploading audio files.
-
    - Amplitude plot area.
-
    - Output container for displaying selected region information.
-
    - FFT plot area for frequency spectrum visualization.
+   - IDFT plot area.
 
-$\bullet$ Callbacks:
-
+- Callbacks:
 - `update_amplitude_plot`: Updates the amplitude plot based on the uploaded audio file.
-
-- `update_fft_plot`: Updates the FFT plot based on the selected region or zoomed area in the amplitude plot.
+- `update_fft_plot`: Updates the DFT plot based on the selected region or zoomed area in the amplitude plot.
+- `update_inverse_amplitude_plot`: Updates the IDFT plot based on the selected region.
 
 ## A few notes
 <img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/f9a5d4e6-9000-44e7-a0a0-44d3fd8c7210" width="50%" height="50%">
 
 - Enter the time period you want to check in the audio and click "Confirm";
-
 - All three images on the webpage can be viewed in detail using the tool in the upper right corner.;
-
 - The choice of audio data is unimportant, you can use the Test Cases I have provided for testing.
 
 ## Contact
