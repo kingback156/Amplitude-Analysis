@@ -66,7 +66,7 @@ $\bullet$ Callbacks:
 - `update_fft_plot`: Updates the FFT plot based on the selected region or zoomed area in the amplitude plot.
 
 ## A few notes
-<img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/51f622d3-be52-4531-86be-b8c7babd8189" width="30%" height="30%">
+<img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/f9a5d4e6-9000-44e7-a0a0-44d3fd8c7210" width="30%" height="30%">
 
 $\bullet$ Both the "Zoom" tool and the "Draw" tool can be used to manipulate selected areas;
 
