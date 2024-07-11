@@ -2,16 +2,14 @@
 
 ## Description
 
-This project is a web application built with Flask and Dash that allows users to upload audio files, analyze their amplitude, and visualize the results. Users can also select regions of the audio for detailed frequency spectrum analysis using FFT (Fast Fourier Transform).
+This project is a web application for performing amplitude analysis on audio files. It uses Flask as the web server and Dash for the interactive data visualization components. The application allows users to upload audio files, visualize their amplitude, select regions for DFT (Discrete Fourier Transform) analysis, and view inverse DFT (IDFT) plots.
 
 ## Features
-$\bullet$ **Upload Audio Files:** Supports various audio file formats (e.g., WAV, MP3).
-
-$\bullet$ **Amplitude Visualization:** Displays the amplitude of the audio signal over time.
-
-$\bullet$ **Frequency Spectrum Analysis:** Allows users to select regions of the audio for FFT analysis and visualizes the frequency spectrum.
-
-$\bullet$ **Interactive Tools:** Provides tools for zooming, selecting, and drawing on the amplitude plot.
+- **Upload Audio File**: Users can upload an audio file in formats supported by `librosa`;
+- **Amplitude Plot**: The waveform of the uploaded audio file is displayed;
+- **Region Selection**: Users can select a region of the audio waveform for detailed analysis;
+- **DFT Plot**: The frequency domain representation of the selected region is shown;
+- **Inverse DFT Plot**: The inverse DFT of the selected region is displayed, showing the reconstructed time domain signal.
 ## Screenshot display
 <table>
   <tr>
