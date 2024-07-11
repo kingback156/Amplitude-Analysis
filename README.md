@@ -9,7 +9,7 @@ This project is a web application for performing amplitude analysis on audio fil
 - **Amplitude Plot**: The waveform of the uploaded audio file is displayed;
 - **Region Selection**: Users can select a region of the audio waveform for detailed analysis;
 - **DFT Plot**: The frequency domain representation of the selected region is shown;
-- **Inverse DFT Plot**: The inverse DFT of the selected region is displayed, showing the reconstructed time domain signal.
+- **IDFT Plot**: The inverse DFT of the selected region is displayed, showing the reconstructed time domain signal.
 ## Screenshot display
 <table>
   <tr>
