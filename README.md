@@ -68,7 +68,7 @@ $\bullet$ Callbacks:
 ## A few notes
 <img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/f9a5d4e6-9000-44e7-a0a0-44d3fd8c7210" width="50%" height="50%">
 
-- Enter the time period you want to see in the audio and click "Confirm";
+- Enter the time period you want to check in the audio and click "Confirm";
 
 - All three images on the webpage can be viewed in detail using the tool in the upper right corner.;
 
