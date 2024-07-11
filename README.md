@@ -28,6 +28,7 @@ git clone https://github.com/kingback156/Amplitude-Analysis
 **Step 2:** Please enter the following command in conda's virtual environment;
 ```
 conda create --name analysis python=3.9
+conda activate analysis
 conda install flask dash numpy librosa
 ```
 **Step 3:** Then, start the program with the following command：
