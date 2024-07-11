@@ -25,7 +25,7 @@ $\bullet$ **Interactive Tools:** Provides tools for zooming, selecting, and draw
 ## Installation and run
 **Step 1:** Clone the repository:
 ```
-git clone https://github.com/your-username/amplitude-analysis.git
+git clone https://github.com/kingback156/Amplitude-Analysis
 ```
 **Step 2:** Please enter the following command in conda's virtual environment;
 ```
