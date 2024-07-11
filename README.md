@@ -40,7 +40,8 @@ Open your browser and visit "http://127.0.0.1:5000" to access the application;
 
 **Step 4:** After entering the homepage, click "Let's try it!" (as shown in Figure 1 above) to enter the analysis interface.
 ## Test Cases Introduce
-
+- audio_[1,2,3]: The audio of people talking;
+- sine_wave_[1,2]: Sine wave signal.
 ## Functionality
 ### Flask Routes
 $\bullet$ `/`: Renders the main index page.
