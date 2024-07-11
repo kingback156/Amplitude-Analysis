@@ -68,11 +68,11 @@ $\bullet$ Callbacks:
 ## A few notes
 <img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/f9a5d4e6-9000-44e7-a0a0-44d3fd8c7210" width="50%" height="50%">
 
-$\bullet$ Both the "Zoom" tool and the "Draw" tool can be used to manipulate selected areas;
+- Enter the time period you want to see in the audio and click "Confirm";
 
-$\bullet$ The "Draw" tool allows multiple FFT calculations at one scale;
+- All three images on the webpage can be viewed in detail using the tool in the upper right corner.;
 
-$\bullet$ The choice of audio data is unimportant, but in my experiments I mainly used this dataset: https://commonvoice.mozilla.org/en/datasets.
+- The choice of audio data is unimportant, you can use the Test Cases I have provided for testing.
 
 ## Contact
 If you have any question, please feel free to contact me. E-mail: ltl030529@163.com.
