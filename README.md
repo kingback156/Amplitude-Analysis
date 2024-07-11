@@ -26,7 +26,6 @@ $\bullet$ **Interactive Tools:** Provides tools for zooming, selecting, and draw
 **Step 1:** Clone the repository:
 ```
 git clone https://github.com/your-username/amplitude-analysis.git
-cd amplitude-analysis
 ```
 **Step 2:** Please enter the following command in conda's virtual environment;
 ```
