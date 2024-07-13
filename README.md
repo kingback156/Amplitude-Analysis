@@ -15,11 +15,11 @@ This project is a web application for performing amplitude analysis on audio fil
   <tr>
     <td><img width="1044" alt="Snipaste_2024-03-17_15-46-47" src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/de46f1e3-c620-43ac-a4ba-445b1281e85e" scale=0.5></td>
     <td><img width="1057" alt="Snipaste_2024-03-17_15-47-37" src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/ad3bc2e0-1465-425a-8ada-a05bd2005837" scale=0.5></td>
-    <td><img width="1044" alt="Snipaste_2024-03-17_15-46-47" src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/76679ccb-1ac0-4605-975e-1538280feed6" scale=0.5></td>
-    <td><img width="1057" alt="Snipaste_2024-03-17_15-47-37" src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/e86befa6-58fe-4fc7-851f-a3041c8aef0c" scale=0.5></td>
+    <td><img width="1044" alt="Snipaste_2024-03-17_15-46-47" src="https://github.com/user-attachments/assets/d43d3366-8388-4edd-9c76-7d2e8bdd5598" scale=0.5></td>
+    
+    <td><img width="1057" alt="Snipaste_2024-03-17_15-47-37" src="https://github.com/user-attachments/assets/0a6450aa-0586-4f05-bf85-e09f17c8512d" scale=0.5></td>
   </tr>
 </table>
-
 ## Installation and run
 **Step 1:** Clone the repository:
 ```
