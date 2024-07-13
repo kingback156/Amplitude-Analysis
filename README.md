@@ -61,7 +61,12 @@ Open your browser and visit "http://127.0.0.1:5000" to access the application;
 - `update_inverse_amplitude_plot`: Updates the IDFT plot based on the selected region.
 
 ## A few notes
-<img src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/f9a5d4e6-9000-44e7-a0a0-44d3fd8c7210" width="50%" height="50%">
+<table>
+  <tr>
+    <td><img width="1044" alt="Snipaste_2024-03-17_15-46-47" src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/f9a5d4e6-9000-44e7-a0a0-44d3fd8c7210" scale=0.5></td>
+    <td><img width="1057" alt="Snipaste_2024-03-17_15-47-37" src="https://github.com/user-attachments/assets/21f6de2f-fdfb-4fc4-8dbe-e991f2039b58" scale=0.5></td>
+  </tr>
+</table>
 
 - Enter the time period you want to check in the audio and click "Confirm";
 - All three images on the webpage can be viewed in detail using the tool in the upper right corner.;
