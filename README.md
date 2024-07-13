@@ -63,8 +63,8 @@ Open your browser and visit "http://127.0.0.1:5000" to access the application;
 ## A few notes
 <table>
   <tr>
-    <td><img width="1044" alt="Snipaste_2024-03-17_15-46-47" src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/f9a5d4e6-9000-44e7-a0a0-44d3fd8c7210" scale=0.5></td>
-    <td><img width="1057" alt="Snipaste_2024-03-17_15-47-37" src="https://github.com/user-attachments/assets/21f6de2f-fdfb-4fc4-8dbe-e991f2039b58" scale=0.5></td>
+    <td><img width="1044" alt="Snipaste_2024-03-17_15-46-47" src="https://github.com/kingback156/Amplitude-Analysis/assets/146167978/f9a5d4e6-9000-44e7-a0a0-44d3fd8c7210" width="100px"></td>
+    <td><img width="1057" alt="Snipaste_2024-03-17_15-47-37" src="https://github.com/user-attachments/assets/21f6de2f-fdfb-4fc4-8dbe-e991f2039b58" width="100px"></td>
   </tr>
 </table>
 
