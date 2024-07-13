@@ -64,7 +64,7 @@ Open your browser and visit "http://127.0.0.1:5000" to access the application;
 <img width="478" alt="Snipaste_2024-07-13_20-01-21" src="https://github.com/user-attachments/assets/22bf0db8-ced5-4290-9552-f4a291100eca">
 
 - Enter the time period you want to check in the audio and click "Confirm";
-- You can of course also use the "Draw line" tool to select the `start time` and the `end time`；
+- You can of course also use the "Draw line" tool to select the `Start Time` and the `End time`；
 - All four graphs on the webpage can be viewed in detail using the tool in the upper right corner.;
 - The choice of audio data is unimportant, you can use the Test Cases I have provided for testing.
 
