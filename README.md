@@ -19,6 +19,7 @@ This project is a web application for performing amplitude analysis on audio fil
     <td><img width="1044" alt="Snipaste_2024-03-17_15-46-47" src="https://github.com/user-attachments/assets/0a6450aa-0586-4f05-bf85-e09f17c8512d" scale=0.5></td>
   </tr>
 </table>
+
 ## Installation and run
 **Step 1:** Clone the repository:
 ```
