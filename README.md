@@ -1,4 +1,4 @@
-# Amplitude Analysis of Audio Files
+# Audio Amplitude Analysis Application
 
 ## Description
 
@@ -8,7 +8,7 @@ This project is a web application for performing amplitude analysis on audio fil
 - **Upload Audio File**: Users can upload an audio file in formats supported by `librosa`;
 - **Amplitude Plot**: The waveform of the uploaded audio file is displayed;
 - **Region Selection**: Users can select a region of the audio waveform for detailed analysis;
-- **DFT Plot**: The frequency domain representation of the selected region is shown;
+- **DFT Plot**: Perform FFT on the selected region and visualize the magnitude and phase spectra；
 - **IDFT Plot**: The inverse DFT of the selected region is displayed, showing the reconstructed time domain signal.
 ## Screenshot display
 <table>
@@ -42,24 +42,11 @@ Open your browser and visit "http://127.0.0.1:5000" to access the application;
 ## Test Cases Introduce
 - audio_[1,2,3]: The audio of people talking;
 - sine_wave_[1,2]: Sine wave signal.
-## Functionality
-### Flask Routes
-- `/`: Renders the main index page.
-- `/analyse.html:` Renders the analysis page where the Dash application is embedded.
-### Dash Application
-- Layout:
-   - Header with title "Amplitude Analysis".
-   - Upload button for uploading audio files.
-   - Amplitude plot area.
-   - Output container for displaying selected region information.
-   - FFT plot area for frequency spectrum visualization.
-   - IDFT plot area.
-
-- Callbacks:
-- `update_amplitude_plot`: Updates the amplitude plot based on the uploaded audio file.
-- `update_fft_plot`: Updates the DFT plot based on the selected region or zoomed area in the amplitude plot.
-- `update_inverse_amplitude_plot`: Updates the IDFT plot based on the selected region.
-
+## Callbacks
+- `parse_contents`: Parses the uploaded audio file and returns the amplitude plot;
+- `set_line_color_update`: Sets the line color update status based on the confirm button clicks;
+- `update_amplitude_plot`: Updates the amplitude plot based on the uploaded audio file, confirm button clicks, and rectangle drawing;
+- `update_fft_and_inverse_plots`: Performs FFT and inverse FFT on the selected region and updates the corresponding plots.
 ## A few notes
 <img width="478" alt="Snipaste_2024-07-13_20-01-21" src="https://github.com/user-attachments/assets/d31abd3c-bc28-4e07-8341-2c79ed45ce0e">
 
