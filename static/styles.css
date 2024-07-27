@@ -52,8 +52,10 @@ nav a {
 }
 
 .hero-text {
-    max-width: 600px;
-    margin-left: 15%;
+    flex: 2;
+    margin-left: 10%;
+    margin-right: 8%; 
+    max-width: 36%; 
 }
 
 .hero h1 {
@@ -78,8 +80,11 @@ nav a {
 }
 
 .hero img {
-    max-width: 400px;
+    flex: 1; 
+    max-width: 36%; 
+    height: auto;
     border-radius: 10px;
+    margin-right: 10%;
 }
 
 footer {
